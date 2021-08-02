@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
+
+body {
+  font-size: 15pt;
+  min-height: 100vh;
+  background: black;
+}
+
+.div {
+  color: greenyellow;
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Georama', sans-serif;
+  animation: animate 5s 1 ease-in; 
+}
+
+@keyframes animate {
+  from {
+    top: -20px;
+  } to {
+    top: 100vh;
+  }
+}
